@@ -2,7 +2,9 @@ import React from 'react'
 
 const tabletennis = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"><div>tabletennis</div></main>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <div>tabletennis</div>
+    </main>
     
   )
 }
