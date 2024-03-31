@@ -17,6 +17,7 @@ const navbar = () => {
                             <li><Link href="/volleyball">Volleyball</Link></li>
                             <li><Link href="/tabletennis">Table Tennis</Link></li>
                             <li><Link href="/sponsors">Sponsors</Link></li>
+                            <li><Link href="/timeline">Timeline</Link></li>
                         </ul>
                     </div>
                     <Link href="/" className="btn btn-ghost text-xl">OLYMPUS</Link>
@@ -29,6 +30,7 @@ const navbar = () => {
                         <li><Link href="/volleyball">Volleyball</Link></li>
                         <li><Link href="/tabletennis">Table Tennis</Link></li>
                         <li><Link href="/sponsors">Sponsors</Link></li>
+                        <li><Link href="/timeline">Timeline</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

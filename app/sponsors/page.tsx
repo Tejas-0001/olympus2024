@@ -2,7 +2,9 @@ import React from 'react'
 
 const sponsors = () => {
   return (
-    <div>sponsors</div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <div>sponsors</div>
+    </main>    
   )
 }
 
