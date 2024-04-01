@@ -17,6 +17,7 @@ const navbar = () => {
                             <li><Link href="/tabletennis">Table Tennis</Link></li>
                             <li><Link href="/sponsors">Sponsors</Link></li>
                             <li><Link href="/timeline">Timeline</Link></li>
+                            <li><Link href="/organizers">Organizers</Link></li>
                             <li><label className="swap swap-rotate">
 
                                 {/* this hidden checkbox controls the state */}
@@ -43,6 +44,7 @@ const navbar = () => {
                         <li><Link href="/tabletennis">Table Tennis</Link></li>
                         <li><Link href="/sponsors">Sponsors</Link></li>
                         <li><Link href="/timeline">Timeline</Link></li>
+                        <li><Link href="/organizers">Organizers</Link></li>
                     </ul>
                     <label className="swap swap-rotate">
 
@@ -58,7 +60,7 @@ const navbar = () => {
                     </label>
                 </div>
                 <div className="navbar-end">
-                    <Link href="/scoreboard" className="btn">Scoreboard</Link>
+                    <Link href="/leaderboard" className="btn">Leaderboard</Link>
                 </div>
             </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const scoreboard = () => {
+const leaderboard = () => {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <div className="stats shadow">
@@ -77,4 +77,4 @@ const scoreboard = () => {
     )
 }
 
-export default scoreboard
+export default leaderboard
