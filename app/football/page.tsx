@@ -16,8 +16,13 @@ import ntl from '../../public/football-logo/ntl.png'
 import ssfl from '../../public/football-logo/ssfl.png'
 import ttfl from '../../public/football-logo/ttfl.png'
 import vssl from '../../public/football-logo/vssl.png'
-
-
+import game from '../../public/games_logo/boombasket.svg'
+import zhansi_banner from '/Jhansi_Banner.png'
+import azad_sena_banner from '/Azad_Sena_Banner.png'
+import freedom_fighters_banner from '/Freedom_Fighters_Banner.png'
+import zhansi_logo from '/Jhansi_Logo.png'
+import azad_sena_logo from '/Azad_Sena_Logo.png'
+import freedom_fighters_logo from '/Freedom_Fighters_Logo.png'
 
 
 const football = () => {
