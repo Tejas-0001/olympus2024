@@ -18,12 +18,12 @@ import ttfl from '../../public/football-logo/ttfl.png'
 import vssl from '../../public/football-logo/vssl.png'
 import game from '../../public/games_logo/hermes.svg'
 import iiitv from '../../public/iiitv.png'
-import zhansi_banner from '/Girls_Football_Banner/Jhansi_Banner.png'
-import azad_sena_banner from '/Girls_Football_Banner/Azad_Sena_Banner.png'
-import freedom_fighters_banner from '/Girls_Football_Banner/Freedom_Fighters_Banner.png'
-import zhansi_logo from '/Girls_Football_Logo/Jhansi_Logo.png'
-import azad_sena_logo from '/Girls_Football_Logo/Azad_Sena_Logo.png'
-import freedom_fighters_logo from '/Girls_Football_Logo/Freedom_Fighters_Logo.png'
+import jhansi_banner from '../../public/Girls_Football_Banner/Jhansi_Banner.png'
+import azad_sena_banner from '../../public/Girls_Football_Banner/Azad_Sena_Banner.png'
+import freedom_fighters_banner from '../../public/Girls_Football_Banner/Freedom_Fighters_Banner.png'
+import jhansi_logo from '../../public/Girls_Football_Logo/Jhansi_Logo.png'
+import azad_sena_logo from '../../public/Girls_Football_Logo/Azad_Sena_Logo.png'
+import freedom_fighters_logo from '../../public/Girls_Football_Logo/Freedom_Fighters_Logo.png'
 
 
 const football = () => {
@@ -295,6 +295,96 @@ const football = () => {
                 <td className='px-9'>0 : 0</td>
               </tr>
 
+            </tbody>
+
+          </table>
+          <div className='text-xl mr-auto mt-10'>Girl's Teams</div>
+          <hr className='lg:pt-3' />
+          <div className='lg:px-96'>
+            <div className="carousel w-full mt-4">
+              <div id="itemg1" className="carousel-item w-full">
+                <Image src={azad_sena_banner} alt='team banner' className="w-full"></Image>
+              </div>
+              <div id="itemg2" className="carousel-item w-full">
+                <Image src={freedom_fighters_banner} alt='team banner' className="w-full"></Image>
+              </div>
+              <div id="itemg3" className="carousel-item w-full">
+                <Image src={jhansi_banner} alt='team banner' className="w-full"></Image>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="flex justify-center w-full py-2 gap-2 mt-1">
+            <Link href="#itemg1" className="btn btn-xs">1</Link>
+            <Link href="#itemg2" className="btn btn-xs">2</Link>
+            <Link href="#itemg3" className="btn btn-xs">3</Link>
+          </div>
+          <hr />
+          <div className='mt-10 text-xl mr-auto'>Standing</div>
+          <table className="table mt-4">
+            {/* head */}
+            <thead>
+              <tr>
+                <th></th>
+                <th>Team</th>
+                <th>Wins | Losses</th>
+                <th>Runs | Wicket</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>
+                  <div className="flex items-center gap-2">
+                    <div className="avatar">
+                      <div className="mask mask-squircle w-12 h-12">
+                        <Image src={azad_sena_logo} alt='logo'></Image>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td className='px-9'>0 : 0</td>
+                <td className='px-9'>0 : 0</td>
+              </tr>
+
+              <tr>
+                <th>2</th>
+                <td>
+                  <div className="flex items-center gap-3">
+                    <div className="avatar">
+                      <div className="mask mask-squircle w-12 h-12">
+                        <Image src={freedom_fighters_logo} alt='logo'></Image>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td className='px-9'>
+                  0 : 0
+                  <br />
+                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
+                </td>
+                <td className='px-9'>0 : 0</td>
+              </tr>
+
+              <tr>
+                <th>3</th>
+                <td>
+                  <div className="flex items-center gap-3">
+                    <div className="avatar">
+                      <div className="mask mask-squircle w-12 h-12">
+                        <Image src={jhansi_logo} alt='logo'></Image>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td className='px-9'>
+                  0 : 0
+                  <br />
+                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
+                </td>
+                <td className='px-9'>0 : 0</td>
+              </tr>
             </tbody>
 
           </table>
