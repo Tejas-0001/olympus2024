@@ -19,6 +19,20 @@ import mp from '../../public/mp.png'
 import ttl from '../../public/logos/ttl.jpg'
 import game from '../../public/games_logo/kratos.svg'
 import iiitv from '../../public/iiitv.png'
+import apl from '../../public/girls-cric-logo/ahilyas pride l.png'
+import asl from '../../public/girls-cric-logo/azad sena l.png'
+import ffl from '../../public/girls-cric-logo/freedom fighters l.png'
+import apb from '../../public/girls-cric-banner/ahilyas pride.png'
+import asb from '../../public/girls-cric-banner/azad sena.png'
+import ffb from '../../public/girls-cric-banner/freedom fighters.png'
+
+
+
+
+
+
+
+
 const cricket = () => {
   return (
     <>
@@ -84,7 +98,7 @@ const cricket = () => {
         </div> */}
 
         <div className='flex flex-col p-8 lg:pt-0 lg:px-20 absolute mt-[100vh]'>
-          <div className='text-xl mr-auto'>Teams</div>
+          <div className='text-xl mr-auto'>Men's Teams</div>
           <hr className='lg:pt-3' />
           <div className='lg:px-96'>
             <div className="carousel w-full mt-4">
@@ -286,6 +300,96 @@ const cricket = () => {
                 <td className='px-9'>0 : 0</td>
               </tr>
 
+            </tbody>
+
+          </table>
+          <div className='text-xl mr-auto mt-10'>Girl's Teams</div>
+          <hr className='lg:pt-3' />
+          <div className='lg:px-96'>
+            <div className="carousel w-full mt-4">
+              <div id="itemg1" className="carousel-item w-full">
+                <Image src={apb} alt='team banner' className="w-full"></Image>
+              </div>
+              <div id="itemg2" className="carousel-item w-full">
+                <Image src={asb} alt='team banner' className="w-full"></Image>
+              </div>
+              <div id="itemg3" className="carousel-item w-full">
+                <Image src={ffb} alt='team banner' className="w-full"></Image>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="flex justify-center w-full py-2 gap-2 mt-1">
+            <Link href="#itemg1" className="btn btn-xs">1</Link>
+            <Link href="#itemg2" className="btn btn-xs">2</Link>
+            <Link href="#itemg3" className="btn btn-xs">3</Link>
+          </div>
+          <hr />
+          <div className='mt-10 text-xl mr-auto'>Standing</div>
+          <table className="table mt-4">
+            {/* head */}
+            <thead>
+              <tr>
+                <th></th>
+                <th>Team</th>
+                <th>Wins | Losses</th>
+                <th>Runs | Wicket</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>
+                  <div className="flex items-center gap-2">
+                    <div className="avatar">
+                      <div className="mask mask-squircle w-12 h-12">
+                        <Image src={apl} alt='logo'></Image>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td className='px-9'>0 : 0</td>
+                <td className='px-9'>0 : 0</td>
+              </tr>
+
+              <tr>
+                <th>2</th>
+                <td>
+                  <div className="flex items-center gap-3">
+                    <div className="avatar">
+                      <div className="mask mask-squircle w-12 h-12">
+                        <Image src={asl} alt='logo'></Image>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td className='px-9'>
+                  0 : 0
+                  <br />
+                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
+                </td>
+                <td className='px-9'>0 : 0</td>
+              </tr>
+
+              <tr>
+                <th>3</th>
+                <td>
+                  <div className="flex items-center gap-3">
+                    <div className="avatar">
+                      <div className="mask mask-squircle w-12 h-12">
+                        <Image src={ffl} alt='logo'></Image>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td className='px-9'>
+                  0 : 0
+                  <br />
+                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
+                </td>
+                <td className='px-9'>0 : 0</td>
+              </tr>
             </tbody>
 
           </table>
