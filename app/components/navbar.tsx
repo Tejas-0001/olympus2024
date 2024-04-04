@@ -60,7 +60,7 @@ const navbar = () => {
                     </label>
                 </div>
                 <div className="navbar-end pr-4">
-                    <Link href="/leaderboard" className="btn">Leaderboard</Link>
+                    <Link href="/allstars" className="btn">ALL STARS</Link>
                 </div>
             </div>
     )
