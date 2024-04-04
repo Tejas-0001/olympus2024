@@ -1,0 +1,15 @@
+.personcard::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #DB4437;
+  transform: translateY(calc(100% - 4px));
+  transition: transform .3s ease-in;
+  z-index: -1;
+}
+
+.personcard:hover::before {
+  transform: translateY(0%);
+  border-radius: .5rem;
+}

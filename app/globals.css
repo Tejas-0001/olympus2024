@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --google-green : #0F9D58;
+  --google-yello : #F4B400;
+  --google-red : #DB4437;
+  --google-blue : #4285F4;
+  --grey-bg-color : #f2f2f3;
+}
+
+
 @layer utilities {
   /* .text-balance {
     text-wrap: balance;
