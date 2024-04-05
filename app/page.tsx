@@ -9,11 +9,11 @@ export default function Home() {
       <video className="absolute mt-4 p-0 w-full h-screen object-cover -z-10" src="2K24.mp4" autoPlay loop muted></video>
       <main className="flex min-h-screen flex-col-reverse items-center justify-between p-10 ">
         <div className="flex w-auto h-auto flex-col items-center">
-          <div className="rounded-3xl p-4 text-white">
+          {/* <div className="rounded-3xl p-4 text-white">
             <Countdown />
-          </div>
+          </div> */}
           <div>
-            <h1 className="lg:-mb-4 text-white rounded-xl p-2 font-bold text-2xl animate-pulse">OLYMPUS KICK OFF</h1>
+            <h1 className="lg:-mb-4 text-white rounded-xl p-2 font-bold text-2xl animate-pulse">Game on</h1>
           </div>
         </div>
       </main>
