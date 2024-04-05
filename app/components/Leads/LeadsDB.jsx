@@ -143,7 +143,7 @@ export const LeadsDB = [
   },
   {
     image: "/VOLUNTEERS/13.jpg",
-    name: "Nilesh Phapale",
+    name: "Tejas Raj",
     domain: "Volunteer",
     contact: { github: "/link", linkedin: "/link"},
   },
