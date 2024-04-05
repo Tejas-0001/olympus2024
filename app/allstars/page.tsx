@@ -102,12 +102,4 @@ export default allstars
         <div className='flex bg-[rgba(24,50,100,.4)] w-[60vw]'>
           <video src="/temp/Versus_4.mp4" autoPlay loop muted></video>
         </div>
-
-        <div className="grid mt-36">
-          <div className="col-start-1 row-start-1 z-30">
-          <img src="ll.svg" className="rounded" />
-          </div>
-          <div className="col-start-1 row-start-1">
-          <video src="/temp/Versus_4.mp4" autoPlay loop muted></video>
-          </div>
-        </div> */}
+ */}

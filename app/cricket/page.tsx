@@ -40,7 +40,7 @@ const cricket = () => {
       <main className="flex min-h-screen w-full flex-col items-center justify-between p-8 lg:px-24 lg:pt-16 overflow-x-hidden">
         <div className='flex flex-col h-full lg:flex-row lg:justify-between mt-64 lg:gap-8'>
           <div className='flex flex-col w-4/12 lg:w-auto mx-auto'>
-          <div className='flex flex-col lg:w-[200px]'>
+            <div className='flex flex-col lg:w-[200px]'>
               <Image src={game} alt='Cricket Logo'></Image>
             </div>
           </div>
@@ -97,8 +97,20 @@ const cricket = () => {
           <div className="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-transparent"><Image className='rounded-xl' src="/criccard1.png" width={640} height={128} alt='card'></Image></div>
         </div> */}
 
-        <div className='flex flex-col p-8 lg:pt-0 lg:px-20 absolute mt-[100vh]'>
-          <div className='text-xl mr-auto'>Men\&apos;s Teams</div>
+        <div className='flex flex-col p-8 lg:pt-0 lg:px-20 absolute mt-[100vh] content-center justify-center mx-auto'>
+          {/* <h1>Upcoming Matches</h1>
+          <div className="static grid mt-6 w-8/12 mx-auto">
+            <div className="col-start-1 row-start-1 z-30">
+              <img src="/football-logo/ssfl.png" width={80} className="rounded ml-0 mt-2 absolute" />
+            </div>
+            <div className="col-start-1 row-start-1 z-30">
+              <img src="/football-logo/bfl.png" width={80} className="rounded ml-40 mt-10 absolute" />
+            </div>
+            <div className="col-start-1 row-start-1">
+              <video src="/temp/Versus_4.mp4" autoPlay loop muted></video>
+            </div>
+          </div> */}
+          <div className='text-xl mt-0 mr-auto'>Men&apos;s Teams</div>
           <hr className='lg:pt-3' />
           <div className='lg:px-96'>
             <div className="carousel w-full mt-4">
