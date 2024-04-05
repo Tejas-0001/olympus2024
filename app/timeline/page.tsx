@@ -37,7 +37,7 @@ const timeline = () => {
                                 <li>07:00 - 8:15 | Azad Warriors Vs Shastri Strikers (BC)</li>
                                 <li>8:30 - 9:45 | Savarkar Soldiers Vs Bose Battalion (BC)</li>
                                 <li>10:00 - 11:15 | Lokmanya lions Vs Patel Patriots (BC)</li>
-                                <li>11:30 - 12:30 | Ahilya's pride Vs  Azad Sena (GC)</li>
+                                <li>11:30 - 12:30 | Ahilya&apos;s pride Vs  Azad Sena (GC)</li>
                                 <li>14:00 - 17:00 | Pong Finity</li>
                                 <li>17:15 - 18:30 | Alluri Arrows Vs Mangal Sena (BC)</li>
                                 <li>19:00 - 20:00 | Jhansi Vs Azad Sena (GF)</li>
@@ -82,7 +82,7 @@ const timeline = () => {
                             <time className="font-mono italic">8|4|2024</time>
                             <div className="text-lg font-black">Day 3</div>
                             <ul>
-                                <li>19:00 - 19:30 | Savarkas's soldiers Vs Savarkar sllammers (BB)</li>
+                                <li>19:00 - 19:30 | Savarkas&apos;s soldiers Vs Savarkar sllammers (BB)</li>
                                 <li>19:31 - 20:00 | Bhagat ballers Vs Azad challengers (BB)</li>
                                 <li>20:30 - 21:30 | Bhagat Blockers Vs Shaheed-E-Azam spikers (VB)</li>
                                 <li>21:31 - 22:30 | Alluri Arrows Vs Subhash Smashers (VB)</li>
@@ -122,7 +122,7 @@ const timeline = () => {
                             <div className="text-lg font-black">Day 5</div>
                             <ul>
                                 <li>17:15 - 18:30 | Savarkar Soldiers Vs Mangal Sena (BC)</li>
-                                <li>19:00 - 19:30 | Shastri Shooters Vs Savarkas's soldiers (BB)</li>
+                                <li>19:00 - 19:30 | Shastri Shooters Vs Savarkas&apos;s soldiers (BB)</li>
                                 <li>19:31 - 20:00 | Shastri Strikes  Vs Azaad challengers (BB)</li>
                                 <li>20:30 - 21:30 | Bhagat Blockers Vs Subhash Smashers (VB)</li>
                                 <li>21:31 - 22:30 | Sadaar spikers Vs  Maharana ki sena (VB)</li>
@@ -143,7 +143,7 @@ const timeline = () => {
                             <ul>
                                 <li>07:00 - 8:15 | Patel Patriots Vs Shastri Strikers (BC)</li>
                                 <li>8:30 - 9:45 | Alluri Arrows Vs Bose Battalion (BC)</li>
-                                <li>10:00 - 11:15 |  Ahilya's pride Vs Manikarnika (GC)</li>
+                                <li>10:00 - 11:15 |  Ahilya&apos;s pride Vs Manikarnika (GC)</li>
                                 <li>14:00 - 17:00 | Pong Finity</li>
                                 <li>17:15 - 18:30 | Eliminator (BC)</li>
                                 <li>19:00 - 20:00 | Jhansi Vs Manikarnika (GF)</li>

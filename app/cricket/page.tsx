@@ -49,7 +49,7 @@ const cricket = () => {
               <div className="stat">
                 <div className="stat-title">Total Runs</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">6's 0</div>
+                <div className="stat-desc">Sixes 0</div>
               </div>
 
               <div className="stat">
@@ -98,7 +98,7 @@ const cricket = () => {
         </div> */}
 
         <div className='flex flex-col p-8 lg:pt-0 lg:px-20 absolute mt-[100vh]'>
-          <div className='text-xl mr-auto'>Men's Teams</div>
+          <div className='text-xl mr-auto'>Men\&apos;s Teams</div>
           <hr className='lg:pt-3' />
           <div className='lg:px-96'>
             <div className="carousel w-full mt-4">
@@ -303,7 +303,7 @@ const cricket = () => {
             </tbody>
 
           </table>
-          <div className='text-xl mr-auto mt-10'>Girl's Teams</div>
+          <div className='text-xl mr-auto mt-10'>Girl&apos;s Teams</div>
           <hr className='lg:pt-3' />
           <div className='lg:px-96'>
             <div className="carousel w-full mt-4">

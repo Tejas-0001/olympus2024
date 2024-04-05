@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 
-const countdown = () => {
+const Countdown = () => {
   const [partyTime, setPartyTime] = useState(false);
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
@@ -69,4 +69,4 @@ const countdown = () => {
   );
 }
 
-export default countdown
+export default Countdown
