@@ -17,7 +17,7 @@ import shas from '../../public/volleyball-banner/shas.png'
 import ss from '../../public/volleyball-banner/ss.png'
 import ta from '../../public/volleyball-banner/ta.png'
 import Link from 'next/link'
-import game from '../../public/games_logo/volleywar.svg'
+import game from '../../public/games_logo/volleywar.png'
 import iiitv from '../../public/iiitv.png'
 
 const volleyball = () => {

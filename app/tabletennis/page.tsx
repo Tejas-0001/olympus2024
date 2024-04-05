@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import game from '../../public/games_logo/pongfinity.svg'
+import game from '../../public/games_logo/pongfinity.png'
 import iiitv from '../../public/iiitv.png'
 const tabletennis = () => {
   return (
