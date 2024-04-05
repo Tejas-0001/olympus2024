@@ -329,7 +329,7 @@ const football = () => {
                 <th></th>
                 <th>Team</th>
                 <th>Wins | Losses</th>
-                <th>Runs | Wicket</th>
+                <th>Points | Goals</th>
               </tr>
             </thead>
             <tbody>
