@@ -15,7 +15,7 @@ const navbar = () => {
                             <li><Link href="/basketball">Basketball</Link></li>
                             <li><Link href="/volleyball">Volleyball</Link></li>
                             <li><Link href="/tabletennis">Table Tennis</Link></li>
-                            <li><Link href="/sponsors">Sponsors</Link></li>
+                            {/* <li><Link href="/sponsors">Sponsors</Link></li> */}
                             <li><Link href="/timeline">Timeline</Link></li>
                             <li><Link href="/organizers">Organizers</Link></li>
                             <li><label className="swap swap-rotate">
@@ -42,7 +42,7 @@ const navbar = () => {
                         <li><Link href="/basketball">Basketball</Link></li>
                         <li><Link href="/volleyball">Volleyball</Link></li>
                         <li><Link href="/tabletennis">Table Tennis</Link></li>
-                        <li><Link href="/sponsors">Sponsors</Link></li>
+                        {/* <li><Link href="/sponsors">Sponsors</Link></li> */}
                         <li><Link href="/timeline">Timeline</Link></li>
                         <li><Link href="/organizers">Organizers</Link></li>
                     </ul>

@@ -8,48 +8,30 @@ import ssf from '../../public/football-banner/ssf.png'
 import ttf from '../../public/football-banner/ttf.png'
 import vss from '../../public/football-banner/vss.png'
 import Link from 'next/link'
-import bbl from '../../public/football-logo/bb.png'
-import bfl from '../../public/football-logo/bfl.png'
-import ffl from '../../public/football-logo/ffl.png'
-import fsfl from '../../public/football-logo/fsfl.png'
-import ntl from '../../public/football-logo/ntl.png'
-import ssfl from '../../public/football-logo/ssfl.png'
-import ttfl from '../../public/football-logo/ttfl.png'
-import vssl from '../../public/football-logo/vssl.png'
+
+// import bbl from '../../public/football-logo/bb.png'
+// import bfl from '../../public/football-logo/bfl.png'
+// import ffl from '../../public/football-logo/ffl.png'
+// import fsfl from '../../public/football-logo/fsfl.png'
+// import ntl from '../../public/football-logo/ntl.png'
+// import ssfl from '../../public/football-logo/ssfl.png'
+// import ttfl from '../../public/football-logo/ttfl.png'
+// import vssl from '../../public/football-logo/vssl.png'
+
 import game from '../../public/games_logo/hermes.png'
 import iiitv from '../../public/iiitv.png'
 import jhansi_banner from '../../public/Girls_Football_Banner/Jhansi_Banner.png'
 import azad_sena_banner from '../../public/Girls_Football_Banner/Azad_Sena_Banner.png'
 import freedom_fighters_banner from '../../public/Girls_Football_Banner/Freedom_Fighters_Banner.png'
-import jhansi_logo from '../../public/Girls_Football_Logo/Jhansi_Logo.png'
-import azad_sena_logo from '../../public/Girls_Football_Logo/Azad_Sena_Logo.png'
-import freedom_fighters_logo from '../../public/Girls_Football_Logo/Freedom_Fighters_Logo.png'
 
+// import jhansi_logo from '../../public/Girls_Football_Logo/Jhansi_Logo.png'
+// import azad_sena_logo from '../../public/Girls_Football_Logo/Azad_Sena_Logo.png'
+// import freedom_fighters_logo from '../../public/Girls_Football_Logo/Freedom_Fighters_Logo.png'
 
-interface footabll_stat {
-  image: string;
-  matches: number;
-  wins: number;
-  draws: number;
-  losses: number;
-  points: number;
-  goals: number;
-}
-
-import { footabll_stats_boys } from '../Utils/stats'
+import { footabll_stats_boys, footabll_stats_girls } from '../Utils/stats'
+import { sortFootballTeams } from '../Utils/functions'
 
 const football = () => {
-
-  function sortTeams(stats:footabll_stat[]):footabll_stat[] {
-    stats.sort((a, b) => {
-      if (a.points > b.points) return -1;
-      else if (b.points > a.points) return 1;
-      if (a.goals > b.goals) return -1;
-      else return 1;
-    })
-    return stats
-  }
-
   return (
     <>
       <video className="absolute m-0 p-0 w-full h-screen object-cover -z-10" src="football-bgc.mp4" autoPlay loop muted></video>
@@ -165,12 +147,12 @@ const football = () => {
               <tr>
                 <th></th>
                 <th>Team</th>
-                <th>Wins | Losses</th>
+                <th>Wins | Draws | Losses</th>
                 <th>Points | Goals</th>
               </tr>
             </thead>
             <tbody>
-              {sortTeams(footabll_stats_boys).map((stat, idx) => 
+              {sortFootballTeams(footabll_stats_boys).map((stat, idx) => 
                 <tr key={idx}>
                   <th>{idx + 1}</th>
                   <td>
@@ -182,154 +164,14 @@ const football = () => {
                       </div>
                     </div>
                   </td>
-                  <td className="px-9">{stat.wins} : {stat.losses}</td>
+                  <td className="px-9">{stat.wins} : {stat.draws} : {stat.losses}</td>
                   <td className="px-9">{stat.points} : {stat.goals}</td>
                 </tr>
               )}
-              {/* <tr>
-                <th>1</th>
-                <td>
-                  <div className="flex items-center gap-2">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={bbl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>0 : 0</td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>2</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={bfl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>3</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={ffl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>4</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={fsfl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>5</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={ntl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>6</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={ssfl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>7</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={ttfl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
-              {/* <tr>
-                <th>8</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={vssl} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr> */}
-
             </tbody>
 
           </table>
+
           <div className='text-xl mr-auto mt-10'>Girl&apos;s Teams</div>
           <hr className='lg:pt-3' />
           <div className='lg:px-96'>
@@ -360,63 +202,27 @@ const football = () => {
               <tr>
                 <th></th>
                 <th>Team</th>
-                <th>Wins | Losses</th>
+                <th>Wins | Draws | Losses</th>
                 <th>Points | Goals</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <th>1</th>
-                <td>
-                  <div className="flex items-center gap-2">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={azad_sena_logo} alt='logo'></Image>
+            {sortFootballTeams(footabll_stats_girls).map((stat, idx) => 
+                <tr key={idx}>
+                  <th>{idx + 1}</th>
+                  <td>
+                    <div className="flex items-center gap-2">
+                      <div className="avatar">
+                        <div className="mask mask-squircle w-12 h-12">
+                          <Image src={stat.image} alt='logo' width="100" height="100"></Image>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </td>
-                <td className='px-9'>0 : 0</td>
-                <td className='px-9'>0 : 0</td>
-              </tr>
-
-              <tr>
-                <th>2</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={freedom_fighters_logo} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr>
-
-              <tr>
-                <th>3</th>
-                <td>
-                  <div className="flex items-center gap-3">
-                    <div className="avatar">
-                      <div className="mask mask-squircle w-12 h-12">
-                        <Image src={jhansi_logo} alt='logo'></Image>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='px-9'>
-                  0 : 0
-                  <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
-                </td>
-                <td className='px-9'>0 : 0</td>
-              </tr>
+                  </td>
+                  <td className="px-9">{stat.wins} : {stat.draws} : {stat.losses}</td>
+                  <td className="px-9">{stat.points} : {stat.goals}</td>
+                </tr>
+              )}
             </tbody>
 
           </table>
