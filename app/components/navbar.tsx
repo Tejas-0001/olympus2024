@@ -59,8 +59,8 @@ const navbar = () => {
 
                     </label>
                 </div>
-                <div className="navbar-end pr-4">
-                    <Link href="/allstars" className="btn">ALL STARS</Link>
+                <div className="navbar-end pr-2">
+                    <Link href="/allstars" className="btn rounded-2xl">ALL STARS</Link>
                 </div>
             </div>
     )
