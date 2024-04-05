@@ -1,33 +1,32 @@
 export const LeadsDB = [
   {
-    image: "/team_photos_/4.png",
-    name: "Vedansh Sawner",
-    domain: "Club Member",
-    contact: {
-      github: "https://github.com/kajaveaniruddha",
-      linkedin: "https://linkedin.com/in/aniruddhakajave/",
-    },
+    image: "/team_photos_/21.png",
+    name: "Harsh Sharma",
+    domain: "Mentor",
+    contact: { github: "/link", linkedin: "/link"},
+  },{
+    image: "/team_photos_/20.png",
+    name: "Arpan Gevariya",
+    domain: "Mentor",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/team_photos_/15.png",
+    name: "Anuj mishra ",
+    domain: "Committee member",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/team_photos_/13.png",
+    name: "Harry ",
+    domain: "Committee member",
+    contact: { github: "/link", linkedin: "/link"},
   },
   {
     image: "/team_photos_/7.png",
     name: "Isha Jangir",
     domain: "Committee Member",
     contact: { github: "/link", linkedin: "/link" },
-  },
-  {
-    image: "/team_photos_/1.png",
-    name: "Dev Anant Pushkar",
-    domain: "Committee Member",
-    contact: { github: "/link", linkedin: "/link" },
-  },
-  {
-    image: "/team_photos_/3.png",
-    name: "Animesh Shukla",
-    domain: "Club Member",
-    contact: {
-      github: "https://github.com/GunalGupta",
-      linkedin: "https://www.linkedin.com/in/gunal-gupta",
-    },
   },
   {
     image: "/team_photos_/6.png",
@@ -38,6 +37,37 @@ export const LeadsDB = [
       linkedin: "https://www.linkedin.com/in/arkesh-choudhury-a10a6a283/",
     },
   },
+  {
+    image: "/team_photos_/9.png",
+    name: "Ayush gangwar ",
+    domain: "Committee Member",
+    contact: { github: "/link", linkedin: "/link" },
+  },
+  {
+    image: "/team_photos_/1.png",
+    name: "Dev Anant Pushkar",
+    domain: "Committee Member",
+    contact: { github: "/link", linkedin: "/link" },
+  },
+  {
+    image: "/team_photos_/4.png",
+    name: "Vedansh Sawner",
+    domain: "Club Member",
+    contact: {
+      github: "https://github.com/kajaveaniruddha",
+      linkedin: "https://linkedin.com/in/aniruddhakajave/",
+    },
+  },
+  {
+    image: "/team_photos_/3.png",
+    name: "Animesh Shukla",
+    domain: "Club Member",
+    contact: {
+      github: "https://github.com/GunalGupta",
+      linkedin: "https://www.linkedin.com/in/gunal-gupta",
+    },
+  },
+ 
   {
     image: "/team_photos_/8.png",
     name: "Dharm Singh",
@@ -59,68 +89,53 @@ export const LeadsDB = [
     domain: "Club Member",
     contact: { github: "/link", linkedin: "/link" },
   },
+ 
   {
-    image: "/team_photos_/9.png",
-    name: "Ayush gangwar ",
-    domain: "Committee Member",
-    contact: { github: "/link", linkedin: "/link" },
-  },
-  {
-    image: "/contact.jpeg",
+    image: "/team_photos_/19.png",
     name: "Kritik Sharma",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
   {
-    image: "/contact.jpeg",
+    image: "/team_photos_/17.png",
     name: "Pankaj Kumar",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
+  
   {
-    image: "/contact.jpeg",
-    name: "Anuj mishra ",
-    domain: "Committee member",
-    contact: { github: "/link", linkedin: "/link"},
-  },
-  {
-    image: "/contact.jpeg",
+    image: "/team_photos_/10.png",
     name: "Srujal Deepak Pawar",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
   {
-    image: "/contact.jpeg",
+    image: "/team_photos_/11.png",
     name: "Ajay Deep Rawat",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
+  
   {
-    image: "/contact.jpeg",
-    name: "Harry ",
-    domain: "Committee member",
-    contact: { github: "/link", linkedin: "/link"},
-  },
-  {
-    image: "/contact.jpeg",
+    image: "/team_photos_/12.png",
     name: "Dinesh Yadav",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
   {
-    image: "/contact.jpeg",
+    image: "/team_photos_/18.png",
     name: "Lakshay Dhiman",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
   {
-    image: "/contact.jpeg",
+    image: "/team_photos_/14.png",
     name: "Vitthal Kendre",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},
   },
   {
-    image: "/contact.jpeg",
+    image: "/team_photos_/16.png",
     name: "Tejas Pakhale",
     domain: "Club member",
     contact: { github: "/link", linkedin: "/link"},

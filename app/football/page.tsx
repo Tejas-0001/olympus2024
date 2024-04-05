@@ -26,7 +26,30 @@ import azad_sena_logo from '../../public/Girls_Football_Logo/Azad_Sena_Logo.png'
 import freedom_fighters_logo from '../../public/Girls_Football_Logo/Freedom_Fighters_Logo.png'
 
 
+interface footabll_stat {
+  image: string;
+  matches: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  points: number;
+  goals: number;
+}
+
+import { footabll_stats_boys } from '../Utils/stats'
+
 const football = () => {
+
+  function sortTeams(stats:footabll_stat[]):footabll_stat[] {
+    stats.sort((a, b) => {
+      if (a.points > b.points) return -1;
+      else if (b.points > a.points) return 1;
+      if (a.goals > b.goals) return -1;
+      else return 1;
+    })
+    return stats
+  }
+
   return (
     <>
       <video className="absolute m-0 p-0 w-full h-screen object-cover -z-10" src="football-bgc.mp4" autoPlay loop muted></video>
@@ -147,7 +170,23 @@ const football = () => {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              {sortTeams(footabll_stats_boys).map((stat, idx) => 
+                <tr key={idx}>
+                  <th>{idx + 1}</th>
+                  <td>
+                    <div className="flex items-center gap-2">
+                      <div className="avatar">
+                        <div className="mask mask-squircle w-12 h-12">
+                          <Image src={stat.image} alt='logo' width="100" height="100"></Image>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td className="px-9">{stat.wins} : {stat.losses}</td>
+                  <td className="px-9">{stat.points} : {stat.goals}</td>
+                </tr>
+              )}
+              {/* <tr>
                 <th>1</th>
                 <td>
                   <div className="flex items-center gap-2">
@@ -160,9 +199,9 @@ const football = () => {
                 </td>
                 <td className='px-9'>0 : 0</td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>2</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -176,12 +215,11 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>3</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -195,12 +233,11 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>4</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -214,12 +251,11 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>5</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -233,12 +269,11 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>6</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -252,12 +287,11 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>7</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -271,12 +305,11 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
-              <tr>
+              {/* <tr>
                 <th>8</th>
                 <td>
                   <div className="flex items-center gap-3">
@@ -290,10 +323,9 @@ const football = () => {
                 <td className='px-9'>
                   0 : 0
                   <br />
-                  {/* <span className="badge badge-ghost badge-sm">Draw 1</span> */}
                 </td>
                 <td className='px-9'>0 : 0</td>
-              </tr>
+              </tr> */}
 
             </tbody>
 
