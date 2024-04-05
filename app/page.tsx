@@ -13,7 +13,7 @@ export default function Home() {
             <Countdown />
           </div>
           <div>
-            <h1 className="-mb-4 text-blue-300 rounded-xl p-2 font-bold text-2xl animate-bounce">OLYMPUS KICK OFF</h1>
+            <h1 className="lg:-mb-4 text-white rounded-xl p-2 font-bold text-2xl animate-pulse">OLYMPUS KICK OFF</h1>
           </div>
         </div>
       </main>

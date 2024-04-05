@@ -26,16 +26,20 @@ const allstars = () => {
   return (
     <>
       <video className="fixed m-0 p-0 w-full h-screen object-cover -z-10" src="as-bg.mp4" autoPlay loop muted></video>
-      <main className="flex min-h-screen bg-[rgba(0,0,0,.4)] bg-gradient-to-b w-full lg:max-w-[1000px] mx-auto flex-col items-center justify-between px-8 pt-32 lg:p-24 overflow-x-hidden gap-10">
+      <main className="flex min-h-screen w-full lg:max-w-[1000px] mx-auto flex-col items-center justify-between px-8 pt-32 lg:p-24 overflow-x-hidden gap-10">
         {/* <h1 className='text-5xl font-semibold mr-0'>Hermes</h1> */}
-        <div className='flex flex-row content-center justify-center gap-6'>
-          <Image src={game} className='w-2/12' alt='Cricket Logo'></Image>
-          <Image src={game1} className='w-2/12' alt='Cricket Logo'></Image>
-          <Image src={game2} className='w-2/12' alt='Cricket Logo'></Image>
-          <Image src={game3} className='w-2/12' alt='Cricket Logo'></Image>
-          <Image src={game4} className='w-2/12' alt='Cricket Logo'></Image>
+        <div className='flex flex-col p-2 round-xl content-center justify-center gap-6 bg-[rgba(0,0,0,.4)] rounded-lg'>
+          <div className='flex flex-row content-center justify-center gap-7'>
+            <Image src={game} className='w-3/12' alt='Cricket Logo'></Image>
+            <Image src={game1} className='w-3/12' alt='Cricket Logo'></Image>
+            <Image src={game2} className='w-3/12' alt='Cricket Logo'></Image>
+          </div>
+          <div className='flex flex-row content-center justify-center gap-7'>
+            <Image src={game3} className='w-3/12' alt='Cricket Logo'></Image>
+            <Image src={game4} className='w-3/12' alt='Cricket Logo'></Image>
+          </div>
         </div>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fff} alt='football team'></Image>
+        <Image className='w-10/12 lg:mt-8 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fff} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fbf} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={ffs} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fnt} alt='football team'></Image>
