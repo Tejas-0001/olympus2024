@@ -111,7 +111,7 @@ const basketBall = () => {
                 <th></th>
                 <th>Team</th>
                 <th>Wins | Losses</th>
-                <th>Runs | Wicket</th>
+                <th>Points | Margin</th>
               </tr>
             </thead>
             <tbody>
