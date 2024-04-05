@@ -30,11 +30,11 @@ const football = () => {
   return (
     <>
       <video className="absolute m-0 p-0 w-full h-screen object-cover -z-10" src="football-bgc.mp4" autoPlay loop muted></video>
-      <main className="flex min-h-screen w-full flex-col items-center justify-between p-8 lg:p-24 overflow-x-hidden">
+      <main className="flex min-h-screen w-full flex-col items-center justify-between p-8 lg:px-24 lg:pt-12 overflow-x-hidden">
         <div className='flex flex-col h-full lg:flex-row lg:justify-between mt-64 lg:gap-8'>
           <div className='flex flex-col w-4/12 lg:w-auto mx-auto'>
             <div className='flex flex-col lg:w-[200px]'>
-              <Image src={game} alt='Cricket Logo' objectFit='cover'></Image>
+              <Image src={game} alt='Cricket Logo'></Image>
             </div>
           </div>
           <div className='flex flex-col lg:w-auto text-center'>

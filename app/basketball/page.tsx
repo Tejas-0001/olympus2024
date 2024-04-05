@@ -19,39 +19,25 @@ const basketBall = () => {
   return (
     <>
       <video className="absolute m-0 p-0 w-full h-screen object-cover -z-10" src="basketball-bg.mp4" autoPlay loop muted></video>
-      <main className="flex min-h-screen w-full flex-col items-center justify-between p-8 lg:p-24 overflow-x-hidden">
+      <main className="flex min-h-screen w-full bg-[rgba(0,0,0,.4)] flex-col items-center justify-between p-8 lg:px-24 lg:pt-16 overflow-x-hidden">
         <div className='flex flex-col h-full lg:flex-row lg:justify-between mt-64 lg:gap-8'>
           <div className='flex flex-col w-4/12 lg:w-auto mx-auto'>
             <div className='flex flex-col lg:w-[200px]'>
-              <Image src={game} alt='Cricket Logo' objectFit='cover'></Image>
+              <Image src={game} alt='Cricket Logo'></Image>
             </div>
           </div>
-          <div className='flex flex-col lg:w-auto text-center'>
+          <div className='flex flex-col lg:w-auto text-center mt-4'>
             <div className="stats shadow rounded-2xl">
               <div className="stat">
-                <div className="stat-title">Total Runs</div>
+                <div className="stat-title">Total Basket</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">Balls Played 0</div>
+                <div className="stat-desc">3 pointer-0</div>
               </div>
 
               <div className="stat">
-                <div className="stat-title">Highest Run</div>
+                <div className="stat-title">Highest Point</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">Not out</div>
-              </div>
-            </div>
-            <div className="stats shadow mt-3 rounded-2xl">
-
-              <div className="stat">
-                <div className="stat-title">Wickets</div>
-                <div className="stat-value">0</div>
-                <div className="stat-desc">LBW 0</div>
-              </div>
-
-              <div className="stat">
-                <div className="stat-title">Balls</div>
-                <div className="stat-value">0</div>
-                <div className="stat-desc">Maiden 0</div>
+                <div className="stat-desc">Team Name</div>
               </div>
             </div>
           </div>
