@@ -17,7 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html data-theme="winter" lang="en">      
+    <html data-theme="winter" lang="en">    
+    <head><link rel="icon" href="/icon?<generated>" type="image/png" sizes="32x32" /></head>  
       <body className={inter.className}>
         <Navbar/>
         {children}

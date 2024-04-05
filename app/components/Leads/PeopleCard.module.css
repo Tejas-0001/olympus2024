@@ -3,7 +3,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #DB4437;
+  background-color: #08303a;
   transform: translateY(calc(100% - 4px));
   transition: transform .3s ease-in;
   z-index: -1;

@@ -40,8 +40,8 @@ const PeopleCard:React.FC<PeopleCardProps> = ({image, name, domain, contact, ind
                 " relative w-full h-full flex flex-col justify-center items-center z-10 overflow-hidden transition-colors duration-300 ease-in hover:transform hover:translate-y-0 hover:rounded-md "
             }>
                 <div className={`w-[${textCol==='black' ? '70' : '100'}%] h-[60%] relative flex items-center overflow-hidden transition-all duration-[0.3s]`}>
-                        <Image src={image} alt="Image" width="140" height="140" 
-                        className={"border-3 border-solid border-green rounded-full transition-all duration-500 ease-in-out w-full overflow-hidden " + (textCol==='white' ? '' : '')}
+                        <Image src={image} alt="Image" width="130" height="130" 
+                        className={"p-4 border-3 border-solid border-green rounded-full transition-all duration-500 ease-in-out w-full overflow-hidden " + (textCol==='white' ? '' : '')}
                         /> 
                 </div>
                 <div className={"w-full h-[40%] flex flex-col justify-center items-center gap-4"}>

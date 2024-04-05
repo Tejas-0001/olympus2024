@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 
-const countdown = () => {
+const Countdown = () => {
   const [partyTime, setPartyTime] = useState(false);
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
@@ -10,7 +10,7 @@ const countdown = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("04/05/2024 17:00:00");
+    const target = new Date("04/05/2024 18:00:00");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -37,34 +37,36 @@ const countdown = () => {
 
     return () => clearInterval(interval);
   }, []);
+  if (partyTime)
+    return null;
   return (
     <div className="grid grid-flow-col gap-4 items-center auto-cols-max justify-center">
-  <div className="flex flex-col">
-    <span className="countdown text-2xl ml-3">
-      {days}
-    </span>
-    Days
-  </div> 
-  <div className="flex flex-col">
-    <span className="countdown text-2xl ml-3">
-      {hours}
-    </span>
-    Hours
-  </div> 
-  <div className="flex flex-col">
-    <span className="countdown text-2xl ">
-      {minutes}
-    </span>
-    Min
-  </div> 
-  <div className="flex flex-col">
-    <span className="countdown text-2xl">
-      {seconds}
-    </span>
-    Sec
-  </div>
-</div>
+      <div className="flex flex-col">
+        <span className="countdown text-2xl ml-3">
+          {days}
+        </span>
+        Days
+      </div>
+      <div className="flex flex-col">
+        <span className="countdown text-2xl ml-3">
+          {hours}
+        </span>
+        Hours
+      </div>
+      <div className="flex flex-col">
+        <span className="countdown text-2xl ">
+          {minutes}
+        </span>
+        Min
+      </div>
+      <div className="flex flex-col">
+        <span className="countdown text-2xl">
+          {seconds}
+        </span>
+        Sec
+      </div>
+    </div>
   );
 }
 
-export default countdown
+export default Countdown
