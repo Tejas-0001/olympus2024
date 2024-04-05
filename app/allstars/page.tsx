@@ -17,6 +17,12 @@ import fss from '../../public/FOOTBALL TEAM CARD_PNG/shurveer savarkar fc.png'
 import ftt from '../../public/FOOTBALL TEAM CARD_PNG/tilak titans fc.png'
 import fvs from '../../public/FOOTBALL TEAM CARD_PNG/veer shubash squad.png'
 import cfa from '../../public/CRICKET TEAM CARD_PNG/faculty.png'
+import wcap from '../../public/WOMENS CRICKET TEAM CARD/ahilyas pride.png'
+import wcas from '../../public/WOMENS CRICKET TEAM CARD/azad sena.png'
+import wcmk from '../../public/WOMENS CRICKET TEAM CARD/MANIKARNIKA.png'
+import wfas from '../../public/WOMENS FOOTBALL TEAM CARD/azad sena.png'
+import wfjh from '../../public/WOMENS FOOTBALL TEAM CARD/jhansi.png'
+import wfmk from '../../public/WOMENS FOOTBALL TEAM CARD/manikarnika.png'
 import game from '../../public/games_logo/kratos.png'
 import game1 from '../../public/games_logo/pongfinity.png'
 import game2 from '../../public/games_logo/volleywar.png'
@@ -38,7 +44,18 @@ const allstars = () => {
             <Image src={game4} className='w-3/12' alt='Cricket Logo'></Image>
           </div>
         </div>
-        <Image className='w-10/12 lg:mt-8 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fff} alt='football team'></Image>
+        <Image className='w-10/12 lg:mt-8 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cfa} alt='football team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={caa} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={caw} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cbb} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cll} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cpp} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={css} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cshastris} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wcap} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wcas} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wcmk} alt='cricket team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fff} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fbf} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={ffs} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fnt} alt='football team'></Image>
@@ -46,20 +63,9 @@ const allstars = () => {
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fss} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={ftt} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={fvs} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={caa} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={caw} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cbb} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cll} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cpp} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={css} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cshastris} alt='football team'></Image>
-        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={cfa} alt='football team'></Image>
-
-
-
-
-
-      </main>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wfas} alt='football team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wfjh} alt='football team'></Image>
+        <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wfmk} alt='football team'></Image>      </main>
       <footer className="footer items-center p-4 bg-neutral text-neutral-content mt-4">
         <aside className="items-center grid-flow-col">
           <Image src={iiitv} width={50} height={50} alt='iitv'></Image>
