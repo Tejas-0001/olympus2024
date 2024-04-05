@@ -166,6 +166,12 @@ export const LeadsDB = [
     contact: { github: "/link", linkedin: "/link"},
   },
   {
+    image: "/VOLUNTEERS/14.jpg",
+    name: "Tanay",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
     image: "/VOLUNTEERS/1.png",
     name: "Harsh Kukadia",
     domain: "Volunteer",
