@@ -28,35 +28,31 @@ const volleyball = () => {
         <div className='flex flex-col h-full lg:flex-row lg:justify-between mt-64 lg:gap-8'>
           <div className='flex flex-col w-4/12 lg:w-auto mx-auto'>
           <div className='flex flex-col lg:w-[200px]'>
-              <Image src={game} alt='Cricket Logo' objectFit='cover'></Image>
+              <Image src={game} alt='Cricket Logo'></Image>
             </div>
           </div>
           <div className='flex flex-col lg:w-auto text-center'>
             <div className="stats shadow rounded-2xl mt-5">
               <div className="stat">
-                <div className="stat-title">Total Runs</div>
+                <div className="stat-title">Points</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">Balls Played 0</div>
               </div>
 
               <div className="stat">
-                <div className="stat-title">Highest Run</div>
+                <div className="stat-title">Aces</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">Not out</div>
               </div>
             </div>
             <div className="stats shadow mt-3 rounded-2xl">
 
               <div className="stat">
-                <div className="stat-title">Wickets</div>
+                <div className="stat-title">Block</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">LBW 0</div>
               </div>
 
               <div className="stat">
-                <div className="stat-title">Balls</div>
+                <div className="stat-title">Kills</div>
                 <div className="stat-value">0</div>
-                <div className="stat-desc">Maiden 0</div>
               </div>
             </div>
           </div>

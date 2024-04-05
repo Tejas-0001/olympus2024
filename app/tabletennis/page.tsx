@@ -13,7 +13,7 @@ const tabletennis = () => {
               <Image src={game} alt='Cricket Logo' objectFit='cover'></Image>
             </div>
           </div>
-          <div className='flex flex-col lg:w-auto text-center'>
+          {/* <div className='flex flex-col lg:w-auto text-center'>
             <div className="stats shadow rounded-2xl mt-5">
               <div className="stat">
                 <div className="stat-title">Total Runs</div>
@@ -41,7 +41,7 @@ const tabletennis = () => {
                 <div className="stat-desc">Maiden 0</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
       <footer className="footer items-center px-4 bg-neutral text-neutral-content">

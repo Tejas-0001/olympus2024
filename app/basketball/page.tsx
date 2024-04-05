@@ -26,16 +26,16 @@ const basketBall = () => {
               <Image src={game} alt='Cricket Logo'></Image>
             </div>
           </div>
-          <div className='flex flex-col lg:w-auto text-center mt-4'>
+          <div className='flex flex-col lg:w-auto text-center mt-4 lg:mt-16'>
             <div className="stats shadow rounded-2xl">
               <div className="stat">
-                <div className="stat-title">Total Basket</div>
+                <div className="stat-title">Total Points</div>
                 <div className="stat-value">0</div>
                 <div className="stat-desc">3 pointer-0</div>
               </div>
 
               <div className="stat">
-                <div className="stat-title">Highest Point</div>
+                <div className="stat-title">Most Points</div>
                 <div className="stat-value">0</div>
                 <div className="stat-desc">Team Name</div>
               </div>
