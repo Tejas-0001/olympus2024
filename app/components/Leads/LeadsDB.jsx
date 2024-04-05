@@ -1,12 +1,13 @@
 export const LeadsDB = [
   {
-    image: "/team_photos_/21.png",
-    name: "Harsh Sharma",
-    domain: "Mentor",
-    contact: { github: "/link", linkedin: "/link"},
-  },{
     image: "/team_photos_/20.png",
     name: "Arpan Gevariya",
+    domain: "Mentor",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/team_photos_/21.png",
+    name: "Harsh Sharma",
     domain: "Mentor",
     contact: { github: "/link", linkedin: "/link"},
   },
@@ -138,6 +139,85 @@ export const LeadsDB = [
     image: "/team_photos_/16.png",
     name: "Tejas Pakhale",
     domain: "Club member",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/13.jpg",
+    name: "Nilesh Phapale",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/11.jpg",
+    name: "Harsh Taunk",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/2.png",
+    name: "Pradyot Soni",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/12.jpg",
+    name: "Nilesh Phapale",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/1.png",
+    name: "Harsh Kukadia",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  
+  {
+    image: "/VOLUNTEERS/3.png",
+    name: "Saumya Joshi",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/4.png",
+    name: "Anurag",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/5.png",
+    name: "Diyansh Jaiswal",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/6.png",
+    name: "Rishabh Patidar",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/7.png",
+    name: "Deep Bartaria",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/8.png",
+    name: "Akshat Sharma",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/9.png",
+    name: "Param Sonawane",
+    domain: "Volunteer",
+    contact: { github: "/link", linkedin: "/link"},
+  },
+  {
+    image: "/VOLUNTEERS/10.png",
+    name: "Ankesh Mishra",
+    domain: "Volunteer",
     contact: { github: "/link", linkedin: "/link"},
   },
 ];
