@@ -13,7 +13,7 @@ import ssl from '../../public/basketball-logo/ssl.png'
 import sstkl from '../../public/basketball-logo/sstkl.png'
 import swksl from '../../public/basketball-logo/swksl.png'
 import Link from 'next/link'
-import game from '../../public/games_logo/boombasket.svg'
+import game from '../../public/games_logo/boombasket.png'
 import iiitv from '../../public/iiitv.png'
 const basketBall = () => {
   return (
