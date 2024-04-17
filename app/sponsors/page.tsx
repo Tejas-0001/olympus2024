@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import spon from '../../public/sponsor.png'
-import amis from '../../public/amis.png'
+import amis from '../../public/ambica/img12.jpg'
 
 const Sponsors = () => {
   return (
