@@ -66,19 +66,9 @@ const allstars = () => {
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wfas} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wfjh} alt='football team'></Image>
         <Image className='w-10/12 rounded-2xl border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]' src={wfmk} alt='football team'></Image>      </main>
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content mt-4">
-        <aside className="items-center grid-flow-col">
-          <Image src={iiitv} width={50} height={50} alt='iitv'></Image>
-          <p>IIITV-ICD © 2024 - All right reserved</p>
-        </aside>
-      </footer>
-    </>
-  )
-}
-
-export default allstars
-{/*<div className='flex content-center align-middle w-[60vw] text-sky-200 border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]'>
-          <div className='-z-10'>
+      
+      <div className='flex content-center align-middle w-[60vw] text-sky-200 border-2 border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]'>
+          {/* <div className='-z-10'>
             <video src="/temp/Versus_1.mp4" autoPlay loop muted></video>
           </div>
           <div className='w-2/12 z-10 mx-auto content-center text-center font-bold'>
@@ -95,7 +85,7 @@ export default allstars
 
 
             <img src="/public/games_logo/boombasket.svg" alt="" />
-          </div>
+          </div> */}
 
         </div>
         <div className='flex bg-[rgba(24,50,100,.4)] w-[60vw]'>
@@ -107,4 +97,15 @@ export default allstars
         <div className='flex bg-[rgba(24,50,100,.4)] w-[60vw]'>
           <video src="/temp/Versus_4.mp4" autoPlay loop muted></video>
         </div>
- */}
+
+      <footer className="footer items-center p-4 bg-neutral text-neutral-content mt-4">
+        <aside className="items-center grid-flow-col">
+          <Image src={iiitv} width={50} height={50} alt='iitv'></Image>
+          <p>IIITV-ICD © 2024 - All right reserved</p>
+        </aside>
+      </footer>
+    </>
+  )
+}
+
+export default allstars
